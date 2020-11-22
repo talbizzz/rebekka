@@ -20,7 +20,7 @@ class App extends React.Component {
 
 	onClickAbout = (e) => {
 		e.preventDefault()
-		this.setState({about:true});
+		this.setState({about:true, gallery: false, appointments:false, contact: false});
 	}
 	onClickGallery = (e) => {
 		e.preventDefault()
