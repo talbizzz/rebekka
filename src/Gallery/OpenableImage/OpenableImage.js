@@ -31,9 +31,12 @@ const OpenableImage = ({image, caption}) => {
 				onClick={handleClose}
 				style={{ background:"black"}}
 			>
-				<div  className="tr pt3 pr3" style={{background:`url(${image}) top center no-repeat`, width:"100%", height:"100%"}}>
-					<p className="baskerville washed-red" >{caption}</p>
-				</div>
+				{/*<div className="tr pt3 pr3"
+					  style={{background: `url(${image}) top center no-repeat`, width: "100%", height: "100%"}}>
+					<p className="baskerville washed-red">{caption}</p>
+				</div>*/}
+				<img src={image} alt="img" style={{maxWidth:"100%", maxHeight:"100%" }} />
+				<p className="w-200 fl baskerville washed-red" style={{position:"absolute", bottom:"8px", right:"16px"}}>{caption}</p>
 			</Backdrop>
 			</div>
 		</div>

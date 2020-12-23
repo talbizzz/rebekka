@@ -24,8 +24,6 @@ const Scenes = ({scenes}) => {
 				<div className="fl w-20 pa2"><OpenableImage image={scenes[9].url} caption={scenes[0].caption}/></div>	
 				<div className="fl w-20 pa2"><OpenableImage image={scenes[0].url} caption={scenes[0].caption}/></div>
 			</div>
-			
-
 		</div>
 	);
 }

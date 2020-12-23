@@ -46,10 +46,20 @@ class Gallery extends React.Component {
 						</div>
 						:(
 							(this.state.portraits && !this.state.scenes)?
-							<Portraits portraits={portraits}/>
+								<div>
+									<Portraits portraits={portraits} />
+									<div className={"tc"}>
+										<a href="/" className="grow no-underline dib fl w-100 f1 baskerville washed-yellow" onClick={this.onClickScenes}>Scenes</a>
+									</div>
+								</div>
 							:(
 								(!this.state.portraits && this.state.scenes)?
-								<Scenes scenes={scenes}/>
+									<div>
+										<Scenes scenes={scenes}/>
+										<div className={"tc"}>
+											<a href="/" className="grow no-underline dib fl w-100 f1 baskerville washed-yellow" onClick={this.onClickPortraits}>Portraits</a>
+										</div>
+									</div>
 								:(<p/>)
 							)
 
