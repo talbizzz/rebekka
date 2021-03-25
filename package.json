@@ -1,5 +1,5 @@
 {
-  "homepage": "https://myusername.github.io/my-app",
+  "homepage": "https://talbizzz.github.io/homepage",
   "name": "homepage",
   "version": "0.1.0",
   "private": true,
@@ -15,6 +15,7 @@
     "react-dom": "^17.0.1",
     "react-player": "^2.7.2",
     "react-scripts": "4.0.0",
+    "react-sound": "^1.2.0",
     "react-spring": "^8.0.27",
     "resize-observer-polyfill": "^1.5.1",
     "tachyons": "^4.12.0",

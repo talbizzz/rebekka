@@ -2,7 +2,9 @@ import React from 'react';
 import Scenes from './Scenes/Scenes';
 import Portraits from './Portraits/Portraits';
 import {portraits} from './Portraits'; 
-import {scenes} from './Scenes'; 
+import {scenes} from './Scenes';
+import imagePort from './fotos/image2.jpeg';
+import imageScenes from './fotos/image6.jpeg';
 
 class Gallery extends React.Component {
 	constructor(){
@@ -30,18 +32,19 @@ class Gallery extends React.Component {
 						(!this.state.portraits && !this.state.scenes) ?
 						<div className="pt6 mt6-ns">
 							<a href="/" className="grow no-underline dib ml6-ns fl w-100 w-40-ns pa3 mr2">
-								<img 
-									src="https://static.wixstatic.com/media/879330_6220169e34bc48d686b8f8d4fa311de2~mv2.jpg/v1/fill/w_1686,h_1124,al_c,q_90,usm_0.66_1.00_0.01/879330_6220169e34bc48d686b8f8d4fa311de2~mv2.webp" 
-									alt="Portrait" 
+								<img
+									src={imagePort}
+									alt="Portrait"
 									onClick={this.onClickPortraits}/>
 								<div className="mt1 tc baskerville f3 washed-red" style={{fontFamily:"Mak"}}>Portraits</div>
 							</a>
 							<a href="/" className="grow no-underline dib fl w-100 w-40-ns pa3 mr2">
 								<img 
-									src="https://static.wixstatic.com/media/879330_51337e4b854a4a82b279c19b0e82fdb2~mv2_d_2500_1667_s_2.jpg/v1/fill/w_1686,h_1124,al_c,q_90,usm_0.66_1.00_0.01/879330_51337e4b854a4a82b279c19b0e82fdb2~mv2_d_2500_1667_s_2.webp" 
+									src={imageScenes}
 									alt="Scenes" 
-									onClick={this.onClickScenes}/>
-								<div className="mt1 tc baskerville f3 washed-red" style={{fontFamily:"Mak"}}>Scenes</div>
+									onClick={this.onClickScenes}
+								/>
+								<div className="mt1 tc baskerville f3 washed-red" style={{fontFamily:"Mak"}}>Audios & Videos</div>
 							</a>
 						</div>
 						:(
@@ -49,7 +52,7 @@ class Gallery extends React.Component {
 								<div>
 									<Portraits portraits={portraits} />
 									<div className={"tc"}>
-										<a href="/" className="grow no-underline dib fl w-100 f1 baskerville washed-yellow" onClick={this.onClickScenes}>Scenes</a>
+										<a href="/" className="grow no-underline dib fl w-100 f1 baskerville washed-yellow" onClick={this.onClickScenes}>Videos & Audios</a>
 									</div>
 								</div>
 							:(

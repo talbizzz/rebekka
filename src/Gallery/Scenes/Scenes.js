@@ -1,28 +1,43 @@
-import React from 'react'; 
-import OpenableImage from '../OpenableImage/OpenableImage'
+import React from 'react';
+import audioMondnacht from './Mondnacht-_Schumann_.mp3';
+import audioWilkommen from './Willkommen-und-Abschied.mp3';
+import ReactPlayer from "react-player";
+import Sound from 'react-sound';
 
 
-const Scenes = ({scenes}) => { 
+const Scenes = ({scenes}) => {
 	return (
 		<div>
-			<div className="mt6 flex">
-				<div className="fl w-25"><OpenableImage image={scenes[1].url} caption={scenes[0].caption}/></div>
-				<div className="fl w-25"><OpenableImage image={scenes[6].url} caption={scenes[0].caption}/></div>		
-				<div className="fl w-25"><OpenableImage image={scenes[7].url} caption={scenes[0].caption}/></div>
-				<div className="fl w-25"><OpenableImage image={scenes[12].url} caption={scenes[0].caption}/></div>
+			<div className="w-100 fl mt6 center">
+				<div className="w-third-ns w-100 fl pa3 ">
+					<ReactPlayer url='https://www.youtube.com/watch?v=ASJDB1KiLUc' width={'auto'} height={'auto'} playing={false} />
+				</div>
+				<div className="w-third-ns w-100 fl pa3">
+					<ReactPlayer url='https://www.youtube.com/watch?v=GrlXQ8miP_I&authuser=0' width={'auto'} height={'auto'} playing={false} />
+				</div>
+				<div className="w-third-ns w-100 fl pa3">
+					<ReactPlayer url='https://www.youtube.com/watch?v=uvaNPx_SyaE&authuser=0' width={'auto'} height={'auto'} playing={false} />
+				</div>
 			</div>
-			<div className="flex">	
-				<div className="fl w-25"><OpenableImage image={scenes[4].url} caption={scenes[0].caption}/></div>				
-				<div className="fl w-25"><OpenableImage image={scenes[11].url} caption={scenes[0].caption}/></div>	
-				<div className="fl w-25"><OpenableImage image={scenes[14].url} caption={scenes[0].caption}/></div>		
-			    <div className="fl w-25"><OpenableImage image={scenes[2].url} caption={scenes[0].caption}/></div>	
-			</div>	
-			<div className="flex">
-				<div className="fl w-20 pa2"><OpenableImage image={scenes[3].url} caption={scenes[0].caption}/></div>
-				<div className="fl w-20 pa2"><OpenableImage image={scenes[5].url} caption={scenes[0].caption}/></div>		
-				<div className="fl w-20 pa2"><OpenableImage image={scenes[8].url} caption={scenes[0].caption}/></div>		
-				<div className="fl w-20 pa2"><OpenableImage image={scenes[9].url} caption={scenes[0].caption}/></div>	
-				<div className="fl w-20 pa2"><OpenableImage image={scenes[0].url} caption={scenes[0].caption}/></div>
+			<div className={"w-100 fl"}>
+				<div className="tc w-50-ns pt4 ph4 fl w-100">
+					<div className={"pv1"}>
+						<audio controls>
+							<source src={audioMondnacht} type="audio/mpeg"/>
+						</audio>
+					</div>
+					<div className={"baskerville white pl5 fl w-100 "}>R.Schumann- Mondnacht</div>
+				</div>
+				<div className="tc w-50-ns pt4 ph4 fl w-100">
+					<div className={"pv1"}>
+						<audio controls>
+							<source src={audioWilkommen} type="audio/mpeg"/>
+						</audio>
+					</div>
+					<div className={"baskerville white pl5 fl w-100 "}>F.Schubert- Willkommen und Abschied</div>
+				</div>
+				<div className="pa5 fl w-20">
+				</div>
 			</div>
 		</div>
 	);

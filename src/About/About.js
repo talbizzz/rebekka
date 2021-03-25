@@ -1,5 +1,6 @@
 import React from 'react';
-import './About.css'
+import './About.css'; 
+import aboutimage from '../Gallery/fotos/image4.jpeg';
 
 const About = () => {
 	return(
@@ -12,55 +13,42 @@ const About = () => {
 							</header>
 							<section class="">
 								<p class="tl lh-copy f4 mt2">
-									Céline Akçağ, in Zürich geboren, begann ihre Gesangsausbildung bei ihrer Mutter.
-									Nach dem Vorstudium am Konservatorium Zürich bei Ulrike Andersen absolvierte 
-									sie ihren Bachelor in Oper, Konzert und Pädagogik in Freiburg i.Br. bei Prof. 
-									Dorothea Wirtz. Ein Auslandsemester verbrachte sie an der Royal Academy of Music 
-									(LDN) bei Mary Nelson und Iain Ledingham. An der Theaterakademie August Everding 
-									(MUC) absolvierte sie den Master in Musiktheater/Operngesang bei KS Prof. Andreas 
-									Schmidt. Zurzeit studiert sie im Konzertmaster an der Hochschule für Musik und 
-									Theater München bei KS Prof. Christiane Iven und Okka von der Damerau, sowie im 
-									Postgradualen Studiengang Liedduo an der Universität Mozarteum Salzburg bei Prof. 
-									Pauliina Tukiainen.
-									Meisterkurse mit Vesselina Kasarova, Alessandro De Marchi, Anne Le Bozec, Prof. 
-									Claudia Visca, Prof. Ulrike Sonntag, Tobias Kratzer, Gerd Uecker und Nadine Secunde 
-									haben ihre Ausbildung erweitert.
+									Die Pianistin Rebeka Stojkoska, geboren
+									1995, wuchs in Skopje (Nordmazedonien)
+									auf. Einen Teil ihrer Kindheit lebte sie in Volos (Griechenland), wo sie im Alter von 4
+									Jahren mit dem Klavierspiel begann.
 									<br/>
-									Innerhalb des Studiums sang sie den Hänsel (Hänsel und Gretel, Humperdinck) am kleinen 
-									Haus des Theaters Freiburg, sowie an der Theaterakademie August Everding im 
-									Prinzregententheater das Glückskind (Der Teufel mit den drei goldenen Haaren, Hanke), 
-									Dorabella (Così fan tutte, Mozart) und Vanina (in L'Ancêtre von Saint-Saëns).
-									Die Mezzosopranistin gewann den Studienpreis 2019 des Migros 
-									Kulturprozent und den Anerkennungspreis beim Internationalen Wettbewerb 
-									Karlsruhe für das Lied des 20. und 21. Jahrhunderts.
+									Von 2002 bis 2013 war sie in der Klavierklasse von Elena Kostovska in Skopje.
+									2013 kam sie nach Deutschland um im Rahmen des Bachelorsstudiums an der
+									Hochschule für Musik Freiburg bei Andreas Bach zu studieren, welches sie 2017
+									erfolgreich abschloss. Ihr Studium setze sie in Freiburg fort und studierte von 2017
+									bis 2019 Master Liedgestaltung bei Pauliina Tukiainen.
+									Seit Herbst 2019 studiert sie Postgraduate Liedduo mit der Mezzosopranistin Céline
+									Akçag am Mozarteum in Salzburg, ebenso bei Pauliina Tukiainen.
 									<br/><br/>
-									Die Spielzeit 19/20 beinhalteten Cherubino (Le nozze di Figaro, Mozart) am Saarländischen 
-									Staatstheater, das Geisterkind 1 (Coraline, Turnage) am Opernhaus Zürich, und Sesto 
-									(Giulio Cesare, Händel) in konzertanter Fassung mit der Bayerischen Kammerphilharmonie.
-									An den Osterfestspielen Baden-Baden und in der kleinen Berliner Philharmonie sang sie 
-									Carmen (La tragédie de Carmen, Bizet/Brook).
-									In der Heubühne Zürich war sie als Nancy (Martha, Flotow) und Giannetta 
-									(L'elisir d'amore, Donizetti) zu sehen.
-									Seit 2019 gehört sie zum Cast des Operncabarets 'D.I.V.A' und gibt diverse 
-									Shows in Frankreich.
+									Ihre musikalische Ausbildung ergänzte sie mit vielen Meisterkursen, u.a. bei Arbo
+									Valdma, Jerome Rose, Till Fellner, sowie für Kammermusik bei Hansjacob Staemmler.
+									Liedkurse besuchte sie bei Anne Le Bozec, Hartmut Höll, Helmut Deutsch, Jan Philip
+									Schulze, Burkhard Kehring, Axel Bauni, Christiane Iven und Malcolm Walker.
 									<br/><br/>
-									Im Konzertfach sang sie die Altpartien in 'Petite messe solennelle' (Rossini) unter 
-									der Leitung von Peter Marino, 'Chichester Psalms' (Bernstein) und 'Glagolitische Messe' 
-									(Janáček) im Herkulessaal München unter der Leitung von Benedikt Haag, sowie 
-									'The Messiah' (Händel) unter der Leitung von Martin Frey.
+									Sie ist Preisträgerin mehrerer internationaler Wettbewerbe für Klavier und
+									Kammermusik. 2016 gewann sie den 1. Preis bei dem Festival für Musik Lake Pearls.
+									2019 bekam sie, im Duo mit Céline Akçag, den Anerkennungspreis beim 3.
+									Internationalen Wettbewerb Karlsruhe für das Lied des 20. und 21. Jahrhunderts.
 									<br/><br/>
-									Eine rege Liedtätigkeit gehört seit Beginn ihrer Laufbahn zu ihrem Alltag. Das Repertoire 
-									reicht von Haydn bis Reimann, womit sie mit ihrer aktuellen Liedduo-Partnerin Rebeka Stojkoska 
-									diverse thematische Programme gestaltet.
+									Des weiteren war sie Stipendiatin der Adelhausenstiftung Freiburg und Yehudi
+									Menuhin Live Music Now. 2017 bekam sie den DAAD Preis für hervorragende
+									Leistungen ausländischer Studierender, sowie das Deutschlandstipendium. 2018
+									gewann sie ein Stipendium der Helene Rosenberg Stiftung.
 									<br/><br/>
-									In der Spielzeit 20/21 ist sie als Modestina (Il viaggio a Reims, Rossini) am Staatstheater 
-									Augsburg und als Boulotte (Ritter Blaubart, Offenbach) am Theater Lüneburg zu sehen.
+									Seit dem WS 2020/21 hat sie einen Lehrauftrag für Gesangskorrepetition an der
+									Hochschule für Musik und Theater in München inne.
 								</p>
 							</section>
 						</div>
 						<article class="fl w-100 w-40-ns pl3 bg-black center mt7-ns ">
 							<div class="center aspect-ratio aspect-ratio--5x7">
-								<img src="https://static.wixstatic.com/media/879330_a5a20fa37f494c5d8817c15e4d08296b~mv2.jpg/v1/fill/w_851,h_1234,al_c,q_90,usm_0.66_1.00_0.01/879330_a5a20fa37f494c5d8817c15e4d08296b~mv2.webp" alt="portrait"/>
+								<img src={aboutimage} alt="portrait"/>
 							</div>
 						</article>
 					</div>

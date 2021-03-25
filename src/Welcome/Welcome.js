@@ -29,18 +29,18 @@ const Welcome = ({About, Gallery, Appointments, Contact}) => {
 				</div>
 				<div className ="fl w-100 w-75-ns tc tr-ns f3 f1-ns mt4-ns"style={{fontFamily:"Mak", color:"white"}}>
 					<div 
-						className="mr7-ns"
+						className="mr4-ns"
 						data-aos="fade-down" 
 						data-aos-duration="2000" 
 					>
-						Celine Akcag
+						Rebeka Stojkoska
 					</div>
 					<div 
 						className="mr6-ns"
 						data-aos="fade-up" 
 						data-aos-duration="2000" 
 					>
-						lyrischer Mezzosopran				
+						Pianist
 					</div>
 				</div>
 				<div className ="tl-ns tc ml6-ns f3-ns .aosAnchor"style={{color:"white", fontFamily:"Mak"}}>
@@ -78,7 +78,7 @@ const Welcome = ({About, Gallery, Appointments, Contact}) => {
 					</div>
 					<div className={'ml4 ml7-ns pl6-ns'}>
 						<div className={"ml7-ns pl7-ns"}>
-							<ReactPlayer url='https://www.youtube.com/watch?v=X26O_Re_uK4' width={'320px'} height={'180px'} playing={true} />
+							<ReactPlayer url='https://www.youtube.com/watch?v=ASJDB1KiLUc' width={'320px'} height={'180px'} playing={true} />
 						</div>
 					</div>
 				</div>
